@@ -27,13 +27,13 @@ Now that you’ve had plenty of practice using Grid, we are going to build a ful
 
 #### Step 4: Gather assets
 1. Once you have your grid layout complete you can either recreate the dashboard example above or style your own design.
-2. Check out some color palettes from Tailwind.
-3. All of the icons and more can be downloaded as SVGs from Material Design Icons.
-3. Choose your own fonts! The design example uses Roboto, which is available with Google fonts. (You may want to review the More Text Styles Lesson for information about how to include external fonts in your projects).
+2. Check out some color palettes from [Tailwind](https://tailwindcss.com/docs/customizing-colors).
+3. All of the icons and more can be downloaded as SVGs from [Material Design Icons](https://pictogrammers.com/library/mdi/).
+3. Choose your own fonts! The design example uses `Roboto`, which is available with Google fonts. (You may want to review the [More Text Styles Lesson](https://www.theodinproject.com/lessons/intermediate-html-and-css-more-text-styles) for information about how to include external fonts in your projects).
 
 #### Step 5: Some tips!
 1. When building the layout, apply background colors or borders to your containers to help you visualize your grid.
-2. It’s up to you whether to use pixels, fr units or both for your grid tracks.
+2. It’s up to you whether to use pixels, `fr` units or both for your grid tracks.
 3. This project does not have to be responsive, but if you’d like to you can expand or shrink the project cards section when resizing the browser window.
 4. You don’t have to make a pixel perfect match with the design example. Consider this an opportunity to practice your CSS skills with your own designs.
 5. Don’t forget to push your finished dashboard to GitHub. Use GitHub Pages to publish it to the world!
