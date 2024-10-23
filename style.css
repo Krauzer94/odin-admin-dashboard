@@ -7,8 +7,10 @@
   /* border: 1px solid red; */
 }
 
-:root {
-  font-size: calc(0.625rem + 0.4vw);
+/* Main defaults */
+.main {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
 
 /* Dashboard sidebar */
