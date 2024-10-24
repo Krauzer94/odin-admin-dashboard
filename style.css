@@ -10,7 +10,7 @@
 /* Main defaults */
 .main-grid {
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 6fr;
 }
 
 /* Span back color */
