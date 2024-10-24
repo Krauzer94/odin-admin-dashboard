@@ -16,9 +16,26 @@
 /* Dashboard sidebar */
 .sidebar {
   display: grid;
+  gap: 24px;
   justify-content: center;
-  grid-template-rows: repeat(3, 1fr);
   background-color: #1992d4;
   color: #F2F2F2;
   font-size: 1.5rem;
+}
+
+/* Top-left logo + text */
+.sidebar-header {
+  display: grid;
+  padding-top: 24px;
+}
+
+/* Space link list */
+.sidebar-links {
+  display: grid;
+  gap: 48px;
+}
+
+/* Sidebar list itens */
+ul, li {
+  padding-top: 12px;
 }
