@@ -56,10 +56,9 @@ ul, li {
 
 /* Sidebar icon positioning */
 li {
-  background-image: url('./icons/home-outline.png');
   background-size: 32px 32px;
   background-repeat: no-repeat;
-  background-position: 0 100%;
+  background-position: 0 110%;
   padding-left: 48px;
 }
 
