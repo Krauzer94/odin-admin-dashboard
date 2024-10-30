@@ -32,7 +32,7 @@
   padding-top: 24px;
   display: flex;
   justify-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 /* Upper-left icon */
@@ -49,6 +49,15 @@
 
 /* Sidebar list itens */
 ul, li {
+  list-style: none;
   padding-top: 24px;
   font-weight: 600;
+}
+
+li {
+  background-image: url('./icons/home-outline.png');
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  padding-left: 48px;
 }
