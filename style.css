@@ -49,5 +49,6 @@
 
 /* Sidebar list itens */
 ul, li {
-  padding-top: 12px;
+  padding-top: 24px;
+  font-weight: 600;
 }
