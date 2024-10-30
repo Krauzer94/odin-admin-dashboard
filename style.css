@@ -29,8 +29,16 @@
 
 /* Top-left logo + text */
 .sidebar-header {
-  display: grid;
   padding-top: 24px;
+  display: flex;
+  justify-items: center;
+  gap: 24px;
+}
+
+/* Upper-left icon */
+.ico-view-dashboard {
+  height: 36px;
+  width: 36px;
 }
 
 /* Space link list */
