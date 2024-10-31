@@ -74,6 +74,11 @@ li {
 .sidebar-links-lower li:nth-child(2) { background-image: url('./icons/support.png'); }
 .sidebar-links-lower li:nth-child(3) { background-image: url('./icons/privacy.png'); }
 
+/* Bring sidebar lists closer */
+.sidebar-links-lower {
+  padding-top: 0px;
+}
+
 /* Header defaults */
 .header-main {
   display: grid;
