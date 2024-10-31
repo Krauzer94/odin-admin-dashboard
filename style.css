@@ -33,6 +33,7 @@
   display: flex;
   justify-items: center;
   gap: 12px;
+  >li { padding-left: 0px; }
 }
 
 /* Upper-left icon */
