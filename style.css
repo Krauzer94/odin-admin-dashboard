@@ -19,7 +19,7 @@
   background-color: #9F639A;
 }
 
-/* Dashboard sidebar */
+/* Sidebar defaults */
 .sidebar-main {
   display: grid;
   color: #F2F2F2;
@@ -29,7 +29,7 @@
 
 /* Top-left logo + text */
 .sidebar-header {
-  padding-top: 24px;
+  padding-top: 0px;
   display: flex;
   justify-items: center;
   gap: 12px;
@@ -73,3 +73,8 @@ li {
 .sidebar-links-lower li:nth-child(1) { background-image: url('./icons/settings.png'); }
 .sidebar-links-lower li:nth-child(2) { background-image: url('./icons/support.png'); }
 .sidebar-links-lower li:nth-child(3) { background-image: url('./icons/privacy.png'); }
+
+/* Header defaults */
+.header-main {
+  display: grid;
+}
