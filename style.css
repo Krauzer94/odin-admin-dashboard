@@ -78,3 +78,11 @@ li {
 .header-main {
   display: grid;
 }
+
+/* Rounded search input */
+input {
+  border: 1px solid #E2E8F0;
+  background-color: #E2E8F0;
+  border-radius: 24px;
+  padding: 6px 12px;
+}
