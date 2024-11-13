@@ -87,8 +87,23 @@ input {
   padding: 6px 12px;
 }
 
-/* Magnify search icon */
-.header-magnify {
+/* Header search icons */
+.header-search {
+  > img {
+    height: 28px;
+    width: 28px;
+  }
+  /* Main profile picture */
+  > .profile-picture {
+    height: 48px;
+    width: 48px;
+    border-radius: 100px;
+  }
+}
+
+/* Regular profile picture */
+.profile-picture {
   height: 36px;
   width: 36px;
+  border-radius: 100px;
 }
