@@ -74,9 +74,12 @@ li {
 .sidebar-links-lower li:nth-child(2) { background-image: url('./icons/support.png'); }
 .sidebar-links-lower li:nth-child(3) { background-image: url('./icons/privacy.png'); }
 
-/* Header defaults */
-.header-main {
+/* Contents section defaults */
+.contents-main {
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 5fr;
+  min-height: 100vh;
 }
 
 /* Rounded search input */
@@ -89,15 +92,20 @@ input {
 
 /* Header search icons */
 .header-search {
-  > img {
-    height: 28px;
-    width: 28px;
-  }
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
   /* Main profile picture */
   > .profile-picture {
     height: 48px;
     width: 48px;
     border-radius: 100px;
+  }
+}
+/* Search section icon sizes */
+.search {
+  > img {
+    height: 28px;
+    width: 28px;
   }
 }
 
@@ -106,4 +114,10 @@ input {
   height: 36px;
   width: 36px;
   border-radius: 100px;
+}
+
+/* Projects body content */
+.projects-main {
+  display: grid;
+  background-color: lightgreen;
 }
