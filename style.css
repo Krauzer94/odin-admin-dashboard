@@ -85,7 +85,7 @@ li {
 /* Header section defaults */
 .header-search {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   grid-template-rows: 1fr 1.5fr;
 }
 
@@ -94,7 +94,7 @@ li {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 24px 48px;
+  padding-left: 48px;
   /* Magnifyig glass icon */
   > img {
     height: 28px;
