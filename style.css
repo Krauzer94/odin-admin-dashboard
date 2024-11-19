@@ -33,7 +33,7 @@
   display: flex;
   justify-items: center;
   gap: 12px;
-  >li { padding-left: 0px; }
+  > li { padding-left: 0px; }
 }
 
 /* Upper-left icon */
@@ -90,41 +90,53 @@ input {
   padding: 6px 12px;
 }
 
-/* Header search icons */
+/* Header space delimitation */
 .header-search {
   display: grid;
-  grid-template-columns: 2.5fr 1fr;
-  /* Main profile picture */
-  > .profile-picture {
-    height: 48px;
-    width: 48px;
-    border-radius: 100px;
-  }
+  grid-template-columns: 2fr 1fr;
 }
 
-/* Search and user container */
+/* Search and user */
 .search-user {
   display: grid;
-  padding: 12px 48px;
-  gap: 12px;
+  padding: 24px 48px;
+  gap: 32px;
 }
 
 /* Search bar element */
-#search { width: 75%; }
+#search {
+  width: 90%;
+}
 
 /* Search section icon sizes */
 .search {
-  /*  */
+  display: flex;
+  align-items: center;
+  gap: 12px;
   > img {
     height: 28px;
     width: 28px;
   }
 }
 
-/* Regular profile picture */
-.profile-picture {
-  height: 36px;
-  width: 36px;
+/* Title 'Hi there' section */
+.user {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+/* User profile picture */
+.pfp-user {
+  height: 76px;
+  width: 76px;
+  border-radius: 100px;
+}
+
+/* Notification profile picture */
+.pfp-notification {
+  height: 48px;
+  width: 48px;
   border-radius: 100px;
 }
 
