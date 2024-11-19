@@ -101,8 +101,20 @@ input {
     border-radius: 100px;
   }
 }
+
+/* Search and user container */
+.search-user {
+  display: grid;
+  padding: 12px 48px;
+  gap: 12px;
+}
+
+/* Search bar element */
+#search { width: 75%; }
+
 /* Search section icon sizes */
 .search {
+  /*  */
   > img {
     height: 28px;
     width: 28px;
