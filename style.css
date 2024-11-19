@@ -118,9 +118,11 @@ input {
 .notification {
   display: flex;
   align-items: center;
+  /* justify-content: center; */
   gap: 32px;
   padding: 12px 24px;
 }
+
 /* Notification bell specific */
 .notification-bell {
   height: 24px;
@@ -147,6 +149,24 @@ input {
   height: 76px;
   width: 76px;
   border-radius: 100px;
+}
+
+/* Interaction buttons section */
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Button specific */
+button {
+  color: white;
+  background-color: #9F639A;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 100px;
+  padding: 12px 32px;
 }
 
 /* Projects body section */
