@@ -82,7 +82,31 @@ li {
   min-height: 100vh;
 }
 
-/* Rounded search input */
+/* Header section defaults */
+.header-search {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1.5fr;
+}
+
+/* Search bar section */
+.search {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 48px;
+  /* Magnifyig glass icon */
+  > img {
+    height: 28px;
+    width: 28px;
+  }
+}
+
+/* Search input specific */
+#search {
+  width: 90%;
+}
+
 input {
   border: 1px solid #E2E8F0;
   background-color: #E2E8F0;
@@ -90,58 +114,44 @@ input {
   padding: 6px 12px;
 }
 
-/* Header space delimitation */
-.header-search {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-}
-
-/* Search and user */
-.search-user {
-  display: grid;
-  padding: 24px 48px;
+/* Notification bell section */
+.notification {
+  display: flex;
+  align-items: center;
   gap: 32px;
+  padding: 12px 24px;
+}
+/* Notification bell specific */
+.notification-bell {
+  height: 24px;
+  width: 24px;
 }
 
-/* Search bar element */
-#search {
-  width: 90%;
-}
-
-/* Search section icon sizes */
-.search {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  > img {
-    height: 28px;
-    width: 28px;
-  }
-}
-
-/* Title 'Hi there' section */
-.user {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
-
-/* User profile picture */
-.pfp-user {
-  height: 76px;
-  width: 76px;
-  border-radius: 100px;
-}
-
-/* Notification profile picture */
-.pfp-notification {
+/* Notification picture specific */
+.notification-pfp {
   height: 48px;
   width: 48px;
   border-radius: 100px;
 }
 
-/* Projects body content */
+/* User presentation section */
+.user {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 12px 48px;
+}
+
+/* User picture specific */
+.user-pfp {
+  height: 76px;
+  width: 76px;
+  border-radius: 100px;
+}
+
+/* Projects body section */
 .projects-main {
   display: grid;
-  background-color: lightgreen;
+  background-color: lightgray;
+  padding: 24px 48px;
 }
