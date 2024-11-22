@@ -179,11 +179,24 @@ button {
   box-shadow: inset 0px 6px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Cards titles */
+.card-title {
+  margin: 24px 0px -24px 0px;
+}
+
 /* Projects cards */
 .projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.1fr 1fr 1fr 1fr;
+  grid-template-rows: 0fr 1fr 1fr 1fr;
+  gap: 32px;
+}
+
+/* Announcement and trending */
+.announcements {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0fr 1fr 0fr 1fr;
   gap: 32px;
 }
 
