@@ -184,6 +184,11 @@ button {
   margin: 24px 0px -24px 0px;
 }
 
+/* Internal card titles */
+.card-title-internal {
+  font-size: 18px;
+}
+
 /* Projects cards */
 .projects {
   display: grid;
