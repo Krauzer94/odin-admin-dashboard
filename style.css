@@ -169,10 +169,27 @@ button {
   padding: 12px 32px;
 }
 
-/* Projects body section */
+/* Projects section defaults */
 .projects-main {
   display: grid;
-  background-color: #E2E8F0;
+  grid-template-columns: 3fr 1fr;
+  gap: 32px;
   padding: 24px 48px;
+  background-color: #E2E8F0;
   box-shadow: inset 0px 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects cards */
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.1fr 1fr 1fr 1fr;
+  gap: 32px;
+}
+
+/* Temporary element */
+.placeholder {
+  padding: 32px;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 255, 10%)
 }
