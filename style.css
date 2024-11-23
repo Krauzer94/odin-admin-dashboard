@@ -218,6 +218,15 @@ button {
 
 /* Projects cards */
 .projects-cards {
+  border-left: 8px solid #F0B429;
+  padding: 32px;
+  border-radius: 12px;
+  background-color:white;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Announcement cards */
+.announcement-cards {
   padding: 32px;
   border-radius: 12px;
   background-color:white;
