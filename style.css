@@ -205,8 +205,8 @@ button {
   gap: 32px;
 }
 
-/* Temporary element */
-.placeholder {
+/* Projects cards */
+.projects-cards {
   padding: 32px;
   border-radius: 12px;
   background-color: rgba(0, 0, 255, 10%)
