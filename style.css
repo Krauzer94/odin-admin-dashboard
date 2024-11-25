@@ -234,7 +234,7 @@ button {
 }
 
 /* Announcement cards */
-.announcement-cards { 
+.announcement-cards {
   padding: 32px;
   border-radius: 12px;
   background-color:white;
@@ -248,4 +248,16 @@ button {
 hr {
   margin: 20px 0px;
   opacity: 0.5;
+}
+
+/* Trending users section */
+.trending-user {
+  display: flex;
+  gap: 24px;
+  /* Profile pictures sizing */
+  > img {
+    height: 48px;
+    width: 48px;
+    border-radius: 100px;
+  }
 }
