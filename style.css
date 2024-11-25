@@ -131,8 +131,8 @@ input {
 
 /* Notification picture specific */
 .notification-pfp {
-  height: 48px;
-  width: 48px;
+  height: 54px;
+  width: 54px;
   border-radius: 100px;
 }
 
@@ -263,8 +263,8 @@ hr {
   gap: 24px;
   /* Profile pictures sizing */
   > img {
-    height: 48px;
-    width: 48px;
+    height: 54px;
+    width:  54px;
     border-radius: 100px;
   }
 }
@@ -274,4 +274,7 @@ hr {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
+  /* Text weight */
+  > b { font-weight: 500; }
+  > p { font-weight: 250; }
 }
