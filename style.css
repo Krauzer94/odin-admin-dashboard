@@ -192,7 +192,10 @@ button {
 /* Cards' interaction icons */
 .card-icons {
   display: flex;
-  justify-self: flex-end;
+  flex: 1;
+  /* Align to lower-right corner */
+  justify-content: flex-end;
+  align-items: flex-end;
   gap: 24px;
   > img {
     height: 24px;
@@ -218,6 +221,8 @@ button {
 
 /* Projects cards */
 .projects-cards {
+  display: flex;
+  flex-flow: column wrap;
   border-left: 8px solid #F0B429;
   padding: 32px;
   border-radius: 12px;
