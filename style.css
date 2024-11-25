@@ -233,8 +233,8 @@ button {
   > p { font-size: 16px }
 }
 
-/* Announcement cards */
-.announcement-cards {
+/* Announcement and trending defaults */
+.announcement-cards, .trending-cards {
   padding: 32px;
   border-radius: 12px;
   background-color:white;
@@ -250,7 +250,14 @@ hr {
   opacity: 0.5;
 }
 
-/* Trending users section */
+/* Trending cards specific */
+.trending-cards {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+/* Trending section defaults */
 .trending-user {
   display: flex;
   gap: 24px;
@@ -260,4 +267,11 @@ hr {
     width: 48px;
     border-radius: 100px;
   }
+}
+
+/* Trending card text */
+.trending-user-text {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
 }
