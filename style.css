@@ -229,7 +229,7 @@ button {
   background-color:white;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
   /* Internal font sizing */
-  > b { font-size: 18px }
+  > b { font-size: 20px }
   > p { font-size: 16px }
 }
 
@@ -240,6 +240,6 @@ button {
   background-color:white;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
   /* Internal font sizing */
-  > b { font-size: 16px }
+  > b { font-size: 18px }
   > p { font-size: 14px }
 }
