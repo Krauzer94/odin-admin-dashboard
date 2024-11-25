@@ -228,6 +228,9 @@ button {
   border-radius: 12px;
   background-color:white;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+  /* Internal font sizing */
+  > b { font-size: 18px }
+  > p { font-size: 16px }
 }
 
 /* Announcement cards */
