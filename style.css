@@ -243,3 +243,9 @@ button {
   > b { font-size: 18px }
   > p { font-size: 14px }
 }
+
+/* Announcement separator */
+hr {
+  margin: 20px 0px;
+  opacity: 0.5;
+}
