@@ -197,14 +197,9 @@ button {
   justify-content: flex-end;
   align-items: flex-end;
   gap: 24px;
-  /* TODO: handled by the .card-icons-img */
-  > img {
-    height: 24px;
-    width: 24px;
-  }
 }
 
-/* TODO: repository link into the icons */
+/* Cards interaction icons */
 .card-icons-img {
   height: 24px;
   width: 24px;
