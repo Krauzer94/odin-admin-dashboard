@@ -266,15 +266,9 @@ hr {
 .trending-user {
   display: flex;
   gap: 24px;
-  /* TODO: handled by the .trending-user-img */
-  > img {
-    height: 54px;
-    width:  54px;
-    border-radius: 100px;
-  }
 }
 
-/* TODO: subreddit link into the icons */
+/* Trending icon sizing */
 .trending-user-img {
   height: 54px;
   width:  54px;
