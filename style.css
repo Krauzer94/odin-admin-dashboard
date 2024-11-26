@@ -197,10 +197,17 @@ button {
   justify-content: flex-end;
   align-items: flex-end;
   gap: 24px;
+  /* TODO: handled by the .card-icons-img */
   > img {
     height: 24px;
     width: 24px;
   }
+}
+
+/* TODO: repository link into the icons */
+.card-icons-img {
+  height: 24px;
+  width: 24px;
 }
 
 /* Projects cards */
@@ -261,12 +268,19 @@ hr {
 .trending-user {
   display: flex;
   gap: 24px;
-  /* Profile pictures sizing */
+  /* TODO: handled by the .trending-user-img */
   > img {
     height: 54px;
     width:  54px;
     border-radius: 100px;
   }
+}
+
+/* TODO: subreddit link into the icons */
+.trending-user-img {
+  height: 54px;
+  width:  54px;
+  border-radius: 100px;
 }
 
 /* Trending card text */
